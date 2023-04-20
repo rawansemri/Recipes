@@ -1,0 +1,4 @@
+export const FOOD_LOADING = 'FOOD_LOADING';
+export const FOOD_ERROR = 'FOOD_ERROR';
+export const FETCH_FOOD_SUCCESS = 'FETCH_FOOD_SUCCESS';
+export const RESET_REDUCER ="RESET_REDUCER";

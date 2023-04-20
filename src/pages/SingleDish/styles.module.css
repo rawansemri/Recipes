@@ -1,0 +1,37 @@
+.dish {
+  margin: 3%;
+  display: flex;
+}
+.image {
+  border-radius: 17px;
+  margin-right: 30px;
+}
+/* .divImage {
+  border-bottom: 4px solid rgb(164, 243, 216);
+} */
+.dishName {
+  color: rgb(164, 243, 216);
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  font-family: initial;
+}
+.comments {
+  background-color: #e2dfdf;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+.comment {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}

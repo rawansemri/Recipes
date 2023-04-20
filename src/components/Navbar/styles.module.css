@@ -1,0 +1,20 @@
+.navbarContainer{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid black ;
+    display: flex;
+    justify-content: space-between;
+}
+.navbarContainer p{
+    margin: 0px;
+}
+.recipes{
+    color: rgb(164, 243, 216);
+}
+.home{
+    color: black;
+font-size: x-large;
+font-style: italic;
+font-weight: bold;
+}

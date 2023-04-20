@@ -1,0 +1,59 @@
+{
+  "Dishes": [
+    {
+      "id": "1",
+      "name": "Mansaf",
+      "photo": "https://amiraspantry.com/wp-content/uploads/2021/04/mansaf-I.jpg",
+      "recipe": [
+        "For the Meat:2 lbs Lamb Meat cut into chunks (including bones) - 6 cups Water - 2 crystals Gum Arabic - 4 Cloves whole - 4 Cardamom pods - 1 Cinnamon Stick - 13 Allspice berries - 1 Bay Leaf ",
+        "For the Rice:2 cups Rice - 4 cups Water - 1½ tsp Salt - Pinch of Saffron",
+        "For the Laban Sauce:1 Laban Jameed - 4 cups Water",
+        "For the Bread Base:2 loaves shrak or tortillas",
+        "For the Topping:4 tbsp Almonds blanched and chopped - ¼ cup Parsley chopped"
+      ],
+      "comments":["Thank you! this is a great recipe!!! "]
+    },
+    {
+      "id": "2",
+      "name": "Maqluba",
+      "photo": "https://realfood.tesco.com/media/images/1400x919-Middle-Easterm-rice-cake-Maqluba-76a3d38e-9130-498b-9e2c-ee0eaafacde8-0-1400x919.jpg",
+      "recipe": [
+        "1medium eggplant (1 pound)",
+        "Salt",
+        "3½pounds bone-in chicken pieces",
+        "1½teaspoons ground black pepper",
+        "1teaspoon ground cumin",
+        "6cloves",
+        "6green cardamom pods",
+        "3bay leaves",
+        "2½cups long-grain rice, rinsed well and drained",
+        "1small onion, cut into large wedges",
+        "Vegetable or olive oil, as needed",
+        "3 to 5medium carrots, 2-or-3-inch pieces",
+        "1medium potato, ½-inch slices",
+        "½medium-head cauliflower, in florets",
+        "¾cup broken vermicelli noodles (see note)",
+        "1teaspoon ground turmeric",
+        "¾teaspoon ground cinnamon",
+        "½teaspoon ground allspice",
+        "¼teaspoon ground cloves",
+        "½teaspoon Goya Sazón seasoning (optional)",
+        "3garlic cloves, grated",
+        "⅓cup pine nuts",
+        "Plain yogurt, for serving (optional)",
+        "Chopped tomatoes, cucumbers, parsley, lemon juice and olive oil, for serving (optional)"
+      ],
+      "comments":["Thank you! this is a great recipe!!! "]
+    },
+    {
+      "id": "3",
+      "name": "Makmoura",
+      "photo": "https://tastecooking.com/wp-content/uploads/2021/04/Article-Makmoora.jpg",
+      "recipe": [
+        "To prepare the dough layers: 4 cups all - purpose flour - 1 cup wheat flour - 1/2 cup sesame - 1/2 cup nigella sativa - Pinch of salt - Lukewarm water for kneading - 1 1/2 cup olive oil",
+        "To prepare the filling: 3 cup olive oil - 4 boneless chicken breasts, cut into cubes - 8 onions, roughly chopped - 1 tablespoon salt - 1 teaspoon black pepper - Pinch of cumin - 1/4 teaspoon cardamom - 1 teaspoon turmeric"
+      ],
+      "comments":["Thank you! this is a great recipe!!! "]
+    }
+  ]
+}

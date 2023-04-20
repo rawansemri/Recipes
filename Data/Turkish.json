@@ -1,0 +1,53 @@
+{
+  "Dishes": [
+    {
+      "id": "1",
+      "name": "Doner kebap",
+      "photo": "https://theistanbulinsider.com/wp-content/uploads/2010/12/doner-kebap-istanbul.jpg",
+      "recipe": [
+        "Beef or lamb",
+        "Spices: Baharat spice blend, ground cumin, Aleppo-style pepper,smoked paprika",
+        "Onion and garlic",
+        "Whole milk yogurt",
+        "Tomato paste",
+        "Lemons"
+      ],
+      "comments":["Thank you! this is a great recipe!!! "]
+    },
+    {
+      "id": "2",
+      "name": "Lahmacun",
+      "photo": "https://images.immediate.co.uk/production/volatile/sites/30/2022/09/Lahmacun-1-c4dc646.jpg?resize=768,574",
+      "recipe": [
+        "½ lb uncooked store-bought organic pizza dough",
+        "½ sweet red pepper, cored, cut into chunks",
+        "1 shallot, halved",
+        "2 garlic cloves, peeled",
+        "½ oz fresh parsley leaves with some stem",
+        "7 oz ground lamb or ground beef",
+        "1 tsp smoked paprika",
+        "1 tsp ground allspice",
+        "½ tsp ground cumin",
+        "½ tsp Aleppo-style pepper",
+        "½ tsp ground cinnamon",
+        "½ tsp cayenne pepper",
+        "½ tsp salt",
+        "4 tbsp tomato paste",
+        "2 tbsp Private Reserve Greek extra virgin olive oil",
+        "Lemon wedges for later"
+      ],
+      "comments":["Thank you! this is a great recipe!!! "]
+    },
+    {
+      "id": "3",
+      "name": "Manti",
+      "photo": "https://i0.wp.com/tarasmulticulturaltable.com/wp-content/uploads/2015/01/manti-7-of-8.jpg?fit=4711%2C3130&ssl=1",
+      "recipe": [
+        "For the dough:3 cup all purpose flour,1 cup warm water,1 tsp. salt,1 egg",
+        "For the filling:250 gr. (0,6 lb.) ground beef,1 medium onion, grated,Black pepper,Red pepper flakes,Salt",
+        "For the butter sauce:Butter,Tomato paste,Red pepper,Dried mints"
+      ],
+      "comments":["Thank you! this is a great recipe!!! "]
+    }
+  ]
+}

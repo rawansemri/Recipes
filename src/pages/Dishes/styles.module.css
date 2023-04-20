@@ -1,0 +1,22 @@
+.dishContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.dish {
+    margin: 3%;
+    border: 4px solid rgb(164, 243, 216);
+    padding: 3%;
+    border-radius: 17px;
+}
+.image{
+  border-radius: 17px;
+}
+
+.addDish{
+  border: 1px solid black
+}
+.divAddbtn{
+  text-align: right;
+}

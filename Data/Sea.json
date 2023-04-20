@@ -1,0 +1,61 @@
+{
+  "Dishes": [
+    {
+      "id": "1",
+      "name": "Corn and fish chowder",
+      "photo": "https://img.taste.com.au/O0hIxRb3/w720-h480-cfill-q80/taste/2016/11/corn-and-fish-chowder-71279-1.jpeg",
+      "recipe": [
+        "  20g butter",
+        "1 tsp olive oil",
+        "1 x 175g pkt rindless bacon, coarsely chopped",
+        "1 leek, pale section only, thinly sliced",
+        "2 tbsp plain flour",
+        "1L (4 cups) Massel chicken style liquid stock",
+        "4 sprigs fresh thyme",
+        "400g potatoes, peeled, cut into 1.5cm pieces",
+        "2 corncobs, husks and silk removed, kernels removed",
+        "500g white fish fillets, cut into 2cm pieces",
+        "125ml (1/2 cup) thickened cream",
+        "Chopped fresh continental parsley, to serve",
+        "Fresh thyme sprigs, extra, to serve"
+      ],
+      "comments":["Thank you! this is a great recipe!!! "]
+    },
+    {
+      "id": "2",
+      "name": "Florida Clams",
+      "photo": "https://x5qefe.p3cdn1.secureserver.net/wp-content/uploads/2020/08/Florida-andouille-clams-1.jpg",
+      "recipe": [
+        "48 clams such as Florida farm-raised hard clams, rinsed well",
+        "1 tbsp olive oil",
+        "1 tbsp garlic chopped",
+        "1 lb. Andouille smoked sausage sliced in coins",
+        "3 cups plum tomatoes chopped",
+        "2 cups stock or dry white wine",
+        "3 tbsp fresh herbs basil, oregano and marjoram, chopped",
+        "2 tbsp scallions or chives sliced"
+      ],
+      "comments":["Thank you! this is a great recipe!!! "]
+    },
+    {
+      "id": "3",
+      "name": "Citrus Seafood Ceviche",
+      "photo": "https://i0.wp.com/www.holajalapeno.com/wp-content/uploads/2021/10/seafood-ceviche-recipe.jpg?w=1200&ssl=1",
+      "recipe": [
+        "Raw Halibut ,Mahi Mahi, salmon, or sea bass",
+        "Raw Sea Scallops.",
+        "Shrimp. Raw, peeled and divined.",
+        "Cooked Octopus tentacles.",
+        "Tomato",
+        "Avocado",
+        "Lime juice",
+        "Orange juice",
+        "Red onions",
+        "Salt",
+        "Cilantro",
+        "Serrano chiles"
+      ],
+      "comments":["Thank you! this is a great recipe!!! "]
+    }
+  ]
+}
