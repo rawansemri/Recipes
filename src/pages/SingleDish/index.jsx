@@ -41,8 +41,8 @@ export const SingleDish = () => {
             <input 
               type="text" 
               placeholder="Comment..."
-              value={comment} // bind input value to comment state
-              onChange={(e) => setComment(e.target.value)} // update comment state on input change
+              value={comment} 
+              onChange={(e) => setComment(e.target.value)} 
             />
             <button onClick={handleAddComment}>➕</button>
           </div>
