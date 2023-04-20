@@ -7,7 +7,7 @@ import styles from "./styles.module.css";
 export const SingleDish = () => {
   const { name, id } = useParams();
   const { Dishes } = useSelector((state) => state.foodReducer);
-  const [comment, setComment] = useState(""); // add state to hold comment input
+  const [comment, setComment] = useState("");
   console.log(Dishes.recipe);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -15,9 +15,8 @@ export const SingleDish = () => {
   }, []);
   
   function handleAddComment(){
-    // add comment input to Dishes.comments array
     Dishes.comments.push(comment);
-    setComment(""); // reset comment input
+    setComment(""); 
   }
 
   return (
