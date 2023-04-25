@@ -61,20 +61,29 @@ export function GetSingleDish(name, id){
     };
   }
 
-  export function AddNewDish(myref, typeofdish){
-    if (typeofdish == "sea"){
-      fetch(`https://seafood.free.beeceptor.com/sea`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(myref)
-    })
-    }
-
-    fetch(`https://${typeofdish}.free.beeceptor.com/${typeofdish}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(myref)
-    })
+ export function AddNewDish(myref, typeofdish){
+    return async (dispatch) => {
+      dispatch({
+        type: FOOD_CONSTANTS.FOOD_LOADING,
+      });
+      try {
+        if (typeofdish == "sea"){
+              fetch(`https://seafood.free.beeceptor.com/sea`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(myref)
+            })
+            }
+        else fetch(`https://${typeofdish}.free.beeceptor.com/${typeofdish}`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(myref)
+            })
+       
+      } catch (error) {
+        dispatch({ type: FOOD_CONSTANTS.FOOD_ERROR, payload: error });
+      }
+    };
   }
   
   export function resetReducer(){
