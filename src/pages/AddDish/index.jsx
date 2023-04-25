@@ -25,25 +25,6 @@ export const AddDish = () => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(myRef.current)
     })
-  // if (name == "arabic"){
-  //   fetch(`http://localhost:8000/Dishes`, {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify(myRef.current)
-  //   })
-  // }else if (name == "turkish"){
-  //   fetch(`http://localhost:6000/Dishes`, {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify(myRef.current)
-  //   })
-  // }else if (name == "sea"){
-  //   fetch(`http://localhost:5000/Dishes`, {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify(myRef.current)
-  //   })
-  // }
   .then(() => {
     navigate("/");
   })
