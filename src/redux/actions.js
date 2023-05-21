@@ -28,7 +28,7 @@ export function FetchFood(foodtype) {
         const Dishes = await res.json();
         dispatch({
           type: FOOD_CONSTANTS.FETCH_FOOD_SUCCESS,
-          payload: Dishes.Dishes,
+          payload: Dishes.Dishes, 
         });
       }
      
@@ -60,22 +60,6 @@ export function GetSingleDish(name, id){
       }
     };
   }
-
-  // export function AddNewDish(myref, typeofdish){
-  //   if (typeofdish == "sea"){
-  //     fetch(`https://seafood.free.beeceptor.com/sea`, {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify(myref)
-  //   })
-  //   }
-
-  //   fetch(`https://${typeofdish}.free.beeceptor.com/${typeofdish}`, {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify(myref)
-  //   })
-  // }
   
   export function resetReducer(){
     return async (dispatch) => {

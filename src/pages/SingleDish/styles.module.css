@@ -18,10 +18,11 @@
 }
 .comments {
   background-color: #e2dfdf;
-  padding: 1rem;
+  padding: 1rem 2%;
   border-radius: 1rem;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
+  margin-right: 30px;
 }
 .comment {
   background-color: #f8f8f8;
@@ -35,3 +36,10 @@ input {
   border-radius: 0.5rem;
   font-size: 1rem;
 }
+
+.recipes{
+  background-color: rgb(197, 226, 216);
+}
+/* .recipe{
+padding: 1%;
+} */

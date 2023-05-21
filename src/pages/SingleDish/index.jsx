@@ -7,7 +7,7 @@ import styles from "./styles.module.css";
 export const SingleDish = () => {
   const { name, id } = useParams();
   const { Dishes } = useSelector((state) => state.foodReducer);
-  const [comment, setComment] = useState(""); // add state to hold comment input
+  const [comment, setComment] = useState("");
   console.log(Dishes.recipe);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -15,9 +15,8 @@ export const SingleDish = () => {
   }, []);
   
   function handleAddComment(){
-    // add comment input to Dishes.comments array
     Dishes.comments.push(comment);
-    setComment(""); // reset comment input
+    setComment(""); 
   }
 
   return (
@@ -41,16 +40,16 @@ export const SingleDish = () => {
             <input 
               type="text" 
               placeholder="Comment..."
-              value={comment} // bind input value to comment state
-              onChange={(e) => setComment(e.target.value)} // update comment state on input change
+              value={comment}
+              onChange={(e) => setComment(e.target.value)} 
             />
             <button onClick={handleAddComment}>➕</button>
           </div>
         </div>
 
-        <div>
+        <div className={styles.recipes}>
           {Dishes.recipe?.map((rec, index) => {
-            return <p key={index}>• {rec}</p>;
+            return <p key={index} className={styles.recipe}>• {rec}</p>;
           })}
         </div>
       </div>

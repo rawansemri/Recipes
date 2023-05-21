@@ -20,9 +20,9 @@ const Dishes = () => {
   return (
     <>
       <Link to={`/addDish/${name}`}>
-        <div className={styles.divAddbtn}>
+        {/* <div className={styles.divAddbtn}>
           <button className={styles.addDish}>Add Dish</button>
-        </div>
+        </div> */}
       </Link>
       <div className={styles.dishContainer}>
         {Dishes?.map((dish) => {
@@ -37,7 +37,11 @@ const Dishes = () => {
                     height="250"
                   />
                 </div>
-                <p>{dish.name}</p>
+                <p>
+                  {dish.name}
+                  <br></br>
+                  <span> Learn more about {dish.name}</span>
+                </p>
               </Link>
             </div>
           );
