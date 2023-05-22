@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { resetReducer } from "../../redux/actions";
+import styles from "./styles.module.css";
+
 const Home = () => {
   const dispatch=useDispatch()
   useEffect(()=>{
